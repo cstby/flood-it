@@ -1,0 +1,52 @@
+/* some style */
+
+body {
+		background-color:#fafafa;
+		margin: 0px 0px 0px 0px;
+		height: 100%;
+		color: #3a3a3a;
+		font-family: Futura, Palatino, Tahoma, 'Open Sans', sans-serif;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		overflow: hidden;
+		-webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+		text-size-adjust: 100%;
+}
+
+/* experimental section starts here */
+
+.shine
+{
+		font-size: 60px;
+		margin:0 auto;
+		width:750px;
+		font-family:sans-serif;
+
+}
+.shine
+{
+		background-color:#222 ;
+		background:-webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.7, #fff));
+		background-repeat:no-repeat;
+		-webkit-background-size: 100px;
+		color: rgba(255, 255, 255, 0.2);
+		-webkit-background-clip: text;
+		-webkit-animation-name: shining;
+		-webkit-animation-duration: 5s;
+		-webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes shining
+{
+		0%
+		{
+				background-position: left top;
+		}
+		100%
+		{
+				background: right bottom;
+		}
+}
