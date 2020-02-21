@@ -4,7 +4,6 @@
 (def board-size 12)
 
 (defn new-board
-  ""
   [board-size]
   (->> (take (* board-size board-size) (repeatedly #(rand-int 5)))
        (partition board-size)
