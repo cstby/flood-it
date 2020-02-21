@@ -7,7 +7,7 @@
           :margin           "10px 10px 10px 10px"
           :height           "100%"
           :color            "#3a3a3a"
-          :font-family      "Futura, Palatino, sans-serif"
+          :font-family      "Futura, \"Century Gothic\" Palatino, sans-serif"
           :user-select      "none"
           :overflow         "hidden"
           :text-size-adjust "100%"}]
